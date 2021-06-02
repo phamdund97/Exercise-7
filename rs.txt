@@ -1,0 +1,7 @@
+B1: Clone repository: git clone https://gitlab.com/tubcvt/git-basic-ex7.git
+B2: Thay doi global config:git config --global user.email "Phamdund97@gmail.com" va git config --global user.name "Pham Du"
+B3: Dat lai remote url: git remote set-url origin https://github.com/phamdund97/Exercise-7.git
+B4: Chen them noi dung vao file t.txt trong branch f1: "Noi dung moi" voi commmit comment la "Sep Duc bung to xau trai": 
+    git add t.txt; git commit -m "Sep Duc bung to xau trai"
+B5: De han gan moi quan he voi sep Duc sau khi chui ngam sep, em se chinh messgae commit chuan bang cau lenh: 
+    git commit --amend -m "update feature A"
